@@ -123,7 +123,7 @@ XMPP_HTTP_UPLOAD_ACCESS = (
             'bytes': 1024 * 1024,
         },
         'uploads_per_timedelta': {  # 3 Uploads per hour
-            'delta': timedelta(hours=1),
+            'delta': timedelta(hours=2),
             'uploads': 3,
         },
     }),
